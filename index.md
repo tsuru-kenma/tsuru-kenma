@@ -17,3 +17,12 @@
 # มาคุยกับผมได้ที่
 * [LinkedIn](https://www.linkedin.com/in/pattarapol-kummoon/)
 * [Twitter](https://twitter.com/kenma_tsuru)
+
+# My articles
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>

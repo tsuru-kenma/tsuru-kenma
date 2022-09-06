@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unpacking Argument Lists
+title: Context manager
 ---
 
 # Unpacking Argument Lists
